@@ -1,6 +1,6 @@
 **Install Gazebo & ROS 2 Gazebo Integration**
-sudo apt update
-sudo apt install gazebo ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control
+`sudo apt update`
+`sudo apt install gazebo ros-humble-gazebo-ros-pkgs ros-humble-gazebo-ros2-control`
 
 **Install TurtleBot3 Simulations (includes world + URDF + robot configs)**
 sudo apt install ros-humble-turtlebot3-gazebo
