@@ -36,3 +36,14 @@
 
 **Run teleop node**
 `ros2 run teleop_twist_keyboard teleop_twist_keyboard`
+
+**Install Cartographer for ROS 2 (Humble)**
+`sudo apt update`
+`sudo apt install ros-humble-cartographer ros-humble-cartographer-ros`
+
+**Launch Cartographer with TurtleBot3**
+`ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True`
+
+**Save the Generated Map**
+`ros2 run nav2_map_server map_saver_cli -f ~/map`
+
