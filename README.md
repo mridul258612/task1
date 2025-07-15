@@ -19,7 +19,7 @@ export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$HOME/ros2_ws/src/gazebo_models_worl
 
 **Clone my repo into ros2_ws/src-**
 cd ~/ros2_ws/src
-git clone YOUR_REPO_URL    
+git clone https://github.com/mridul258612/task1.git   
 
 **Build the workspace**
 cd ~/ros2_ws
