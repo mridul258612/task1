@@ -30,7 +30,7 @@ source install/setup.bash
 ros2 launch my_robot_sim my_world_launch.py
 
 **Run keyboard teleop**
-# Install teleop package once (if not present)
+**Install teleop package once (if not present)**
 sudo apt install ros-humble-teleop-twist-keyboard
 source ~/ros2_ws/install/setup.bash
 
